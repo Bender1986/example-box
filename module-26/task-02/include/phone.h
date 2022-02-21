@@ -36,7 +36,7 @@ class Phone{
     Phone(){}
 
     /*Add new number */
-    bool setContact(const std::string& name, const std::string& number);
+    bool add(const std::string& name, const std::string& number);
 
 
     /*Call */

@@ -30,7 +30,7 @@ bool Phone::check(const std::string& number){
 
 
 /*Add new contact */
-bool Phone::setContact(const std::string& name, const std::string& number){
+bool Phone::add(const std::string& name, const std::string& number){
       
     /* Check number */
     if (!check(number))
