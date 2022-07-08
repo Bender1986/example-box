@@ -23,6 +23,7 @@ enum class Color {
     NONE = 3
 };
 
+
 /* Figure */
 class Figure {
 
@@ -102,7 +103,7 @@ class Triangle: public Figure {
         m_rectangle = {.height = (edge * std::sqrt(3))/2.0 , .width = edge};
     } 
 
-    /* Get square a circle */    
+    /* Get square */    
     virtual double getSquare() const override; 
     
 };
@@ -124,7 +125,7 @@ class Square: public Figure {
         m_rectangle = {.height = edge, .width = edge};
     } 
 
-    /* Get square a circle */    
+    /* Get square */    
     virtual double getSquare() const override; 
     
 };
@@ -147,7 +148,7 @@ class Rectangle: public Figure {
         m_rectangle = {.height = height, .width = width};
     } 
 
-    /* Get square a circle */    
+    /* Get square */    
     virtual double getSquare() const override; 
     
 };

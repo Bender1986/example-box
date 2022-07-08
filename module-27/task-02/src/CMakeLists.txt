@@ -6,7 +6,7 @@ set(MY_INCLUDE_DIR ${CMAKE_SOURCE_DIR}/include)
 
 add_executable(FigureApp main.cpp 
                 ${MY_INCLUDE_DIR}/figure.h 
-                ${MY_INCLUDE_DIR}/figure.cpp                
+                figure.cpp                
                )
 
 target_include_directories(FigureApp PUBLIC ${MY_INCLUDE_DIR})
