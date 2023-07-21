@@ -6,5 +6,9 @@ message Company
     required string adress = 2;
     required string name = 3;
     optional string products = 4;
+<<<<<<< HEAD
     optional bool foreign = 5; 
+=======
+    optional bool foreign = 5;
+>>>>>>> 35b53578b304ddac360cb64f3fe9bfc8c971d15d
 }
