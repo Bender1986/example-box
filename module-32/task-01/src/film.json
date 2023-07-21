@@ -1,0 +1,19 @@
+{
+ "name": "Секретные материалы"
+ "country": "США"
+ "date": "10.09.1993"
+ "creater": "Ten Thirteen Productions 20th Century Fox Television"
+ "author": "Крис Картер"
+ "director": "Крис Картер"
+ "producer": "Крис Картер"
+ "character":
+ {
+  "character1": "Данна Скалли"
+  "character2": "Фокс Малдер"
+ } 
+ "actor":
+ { 
+   "actor1": "Девид Духовны"
+   "actor2": "Джиллиан Андерсон"
+ } 
+}
